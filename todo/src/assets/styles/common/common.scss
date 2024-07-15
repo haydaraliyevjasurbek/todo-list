@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button {
+    font-family: Roboto;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+}
+
+.edit {
+    color: #6750A4;
+
+    &:hover {
+        background: #E6DDFF;
+    }
+}
+
+.del {
+    color: #CF1B1B;
+
+    &:hover {
+        background: #FFE1E1;
+    }
+}
+
+.addButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EEE8F4;
+    box-shadow: 0px 1px 3px 0px #0000004D;
+    border-radius: 16px;
+}
